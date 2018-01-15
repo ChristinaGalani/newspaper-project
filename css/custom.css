@@ -1,3 +1,7 @@
+/**{
+    border:2px solid red; !important
+}*/
+
 body {
     font-family:'Lato', sans-serif;
     font-size:1em;
@@ -34,9 +38,9 @@ img{
   height:auto;
 }
  
-header {
+/*header {
     padding-bottom:50px;
-}
+}*/
 
 .under-construction{
     font-family: 'Shadows Into Light', cursive;
@@ -46,7 +50,6 @@ header {
     color: black;
     border: 2px dashed yellow;
     border-radius: 20px;
-    /*outline:3px solid yellow;*/
     box-shadow: 0 0 3pt 2pt black;
     padding: 10px;
     margin:5px;
@@ -63,14 +66,22 @@ h3 span{
     text-align: left;
 }
 
+.ss ul {
+    padding: 0px;
+}
+
 .ss ul li{
     list-style: none;
     float: left;
+    color: black;
+    /*padding-left: 10px;
+    padding-top: 5px;*/
+    padding: 5px 20px 0px 10px;
 }
 
 .ss ul li p{
     font-family: "Lato";
-    font-size: 20px;
+    font-size: 0.875rem;
 }
 
 .SSSmenu {
@@ -79,7 +90,7 @@ h3 span{
     font-family:'Lato';
     font-size:27px;
     line-height:1.4;
-    font-weight:300;
+    font-weight:400;
     color:#fff;    
 }
 
@@ -134,12 +145,34 @@ h3 span{
 
 .mainmenu {
     font-family:'Lato';
-    font-size:40px;
+    font-size:30px;
     line-height:1;
-    font-weight:300;
+    font-weight:400;
     color:#fff;
+    padding-bottom: 20px; 
+    
 }
 
+.thin{
+    font-family: "Lato"
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.mainmenu ul {
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+.mainmenu ul li{
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.mm{
+    font-family: 'Patua One', cursive;
+}
  
 .jumbotron-fluid {
     padding:0;
@@ -180,10 +213,28 @@ h3 span{
     font-size:1em;
     line-height:1.7;
 }
- 
+
+.small-square{
+    height: 200px;
+    
+}
+.big-square{
+    height: 400px;
+    
+}
+.wide-rectangular{
+    height: 200px;
+    
+}
+.tall-rectangular{
+    height: 400px;
+}
+
 #site-title {
     max-width:150px;
 }
+
+
 
 input.form-control {
     background:#fff;
