@@ -55,6 +55,11 @@ img{
     margin:5px;
     }
 
+    #under-construction-sign{
+        animation-duration: 5s;
+        animation-delay: 0s;
+    }
+
 h3 span{
     display: block;
 }
@@ -64,6 +69,11 @@ h3 span{
     background-color: rgba(100, 83, 148, 0.7);
     width: 66.66vw;
     text-align: left;
+}
+
+.display-2.fixed{
+    position: fixed;
+    top: 0px;
 }
 
 .ss ul {
@@ -214,20 +224,60 @@ h3 span{
     line-height:1.7;
 }
 
+.article-columns{
+    padding: 0px;
+    height: 100%;
+}
+
+.articles{
+    border: 5px solid red; 
+    height: 100%;
+    z-index: -100;
+}
+
+.covers{
+    height: 100%;
+    position: relative;
+    top: -100%;
+}
+
+.box{
+    flex-grow: 1; 
+    overflow:hidden;
+}
+
+#box-1-1{
+
+}
+
 .small-square{
-    height: 200px;
+    height: 33.33%;
+    padding: 0px;
+    margin: 0px;
     
 }
 .big-square{
-    height: 400px;
+    height: 66.66%;
+    padding: 0px;
+    margin: 0px;
+
     
 }
 .wide-rectangular{
-    height: 200px;
+    height: 33.33%;
+    padding: 0px;
+    margin: 0px;
     
 }
 .tall-rectangular{
-    height: 400px;
+    height: 66.66%;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.move-down{
+    top: -100%;
 }
 
 #site-title {
